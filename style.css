@@ -1,0 +1,43 @@
+body{
+background-image: url(home.jpg);
+}
+.nav{
+	color: yellow;
+	justify-content: space-between;
+	background-color: grey;
+	color: yellow;
+	margin: 10px;
+}
+.naviga{
+	padding-left: 700px;
+	justify-content: space-between;
+	/*padding: 10px;
+	margin-right: 300px;*/
+}
+.img{
+	padding-top: 120px;
+	height: 20px;
+}
+.investement{
+	padding-left: 1100px;
+	padding-top: 340px;
+	font-size: 16px;
+	font-family: verdana;
+	font-weight: 600;
+}
+@media screen and (max-width: 60rem) {
+	.nav{
+		margin: 5px;
+	}
+	.naviga{
+		padding-left: 500px;
+	}
+	.img{
+	padding-top: 80px;
+	height: 12px;
+}
+.investement{
+	padding-left: 500px;
+	padding-top: 100px;
+
+}
